@@ -1,0 +1,32 @@
+﻿生成启动时间为 2015/1/21 22:58:03。
+     1>项目“E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\ContentAwareImageResizing\ContentAwareImageResizing.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\Program Files (x86)\Opencv\build\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt basic.cpp dynamicp.cpp main.cpp costflow.cpp shortestpath.cpp
+         basic.cpp
+         dynamicp.cpp
+         main.cpp
+     1>main.cpp(52): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(53): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         costflow.cpp
+     1>costflow.cpp(78): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>costflow.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+     1>costflow.cpp(152): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>costflow.cpp(163): warning C4018: “<”: 有符号/无符号不匹配
+         shortestpath.cpp
+     1>shortestpath.cpp(24): warning C4154: 删除数组表达式；转换到提供的指针
+     1>shortestpath.cpp(25): warning C4154: 删除数组表达式；转换到提供的指针
+     1>shortestpath.cpp(58): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\Release\ContentAwareImageResizing.exe" /NOLOGO /LIBPATH:"E:\Program Files (x86)\Opencv\build\x86\vc11\lib" opencv_core246.lib opencv_imgproc246.lib opencv_highgui246.lib opencv_ml246.lib opencv_video246.lib opencv_features2d246.lib opencv_calib3d246.lib opencv_objdetect246.lib opencv_contrib246.lib opencv_legacy246.lib opencv_flann246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\Release\ContentAwareImageResizing.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\Release\ContentAwareImageResizing.lib" /MACHINE:X86 /SAFESEH Release\basic.obj
+         Release\dynamicp.obj
+         Release\main.obj
+         Release\costflow.obj
+         Release\shortestpath.obj
+         正在生成代码
+         已完成代码的生成
+         ContentAwareImageResizing.vcxproj -> E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\Release\ContentAwareImageResizing.exe
+     1>已完成生成项目“E:\Study\Courseware\z 大3上\媒体计算\Content-Aware Image Resizing\ContentAwareImageResizing\ContentAwareImageResizing.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.56
